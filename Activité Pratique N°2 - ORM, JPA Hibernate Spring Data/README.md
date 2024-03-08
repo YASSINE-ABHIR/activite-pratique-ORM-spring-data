@@ -71,11 +71,3 @@ Décommentez les lignes suivantes pour utiliser H2 :
 ## Exécution
 
 Pour exécuter l'application, assurez-vous d'avoir configuré une base de données MySQL avec les informations spécifiées dans `application.properties`. Ensuite, exécutez la classe principale `ActivitePratiqueN2Application`.
-
-## Auteur
-
-Ce projet a été développé par **HAMZA DAMIRI (Dev7HD)** - [GitHub Profile](https://github.com/Dev7HD).
-
----
-
-**Note :** Assurez-vous d'avoir les dépendances et l'environnement nécessaire configurés correctement avant d'exécuter l'application.
