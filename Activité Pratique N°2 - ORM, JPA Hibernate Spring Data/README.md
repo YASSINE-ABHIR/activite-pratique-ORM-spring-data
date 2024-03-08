@@ -1,6 +1,6 @@
 # Gestion des Patients avec Java Spring 🏥
 
-## Definition
+## Definition et Technologies Utilisées
 
 - **Spring Data**: Spring Data fait partie du framework Spring, qui est un ensemble complet d'outils pour le développement d'applications Java,Spring Data simplifie le développement des couches d'accès aux données en fournissant un modèle de programmation unifié et cohérent pour différents types de stockage de données, tels que les bases de données relationnelles, les bases de données NoSQL, etc.Il offre un support pour diverses technologies d'accès aux données, notamment JPA, JDBC MongoDB, Cassandra, et d'autres.
 
@@ -10,7 +10,21 @@
 
 - **ORM (Object-Relational Mapping)** : L'ORM est une technique de programmation qui permet la conversion de données entre des systèmes de types incompatibles, tels que entre une base de données relationnelle et un langage de programmation orienté objet. Dans le contexte de Java, les frameworks ORM comme Hibernate fournissent un moyen de mapper des objets Java sur des tables de base de données et vice versa, éliminant la nécessité pour les développeurs d'écrire des requêtes SQL de bas niveau. L'ORM simplifie les interactions avec la base de données, améliore la maintenabilité du code et augmente la productivité en permettant aux développeurs de travailler avec des objets dans leur langage de programmation plutôt que de traiter directement avec des détails spécifiques à la base de données.
 
-**Spring Data est un framework d'accès aux données de haut niveau qui prend en charge plusieurs types de stockage de données, tandis que JPA est une norme permettant aux développeurs Java d'interagir avec des bases de données relationnelles. Hibernate est une implémentation spécifique de JPA et sert de framework ORM puissant pour les applications Java. Ensemble, ils fournissent une manière robuste et normalisée de gérer la persistance des données dans les applications d'entreprise basées sur Java.**
+- **Lombok** :
+  Lombok est une bibliothèque Java qui simplifie le développement en automatisant la génération de code répétitif.
+  Elle introduit des annotations spéciales dans le code Java pour générer automatiquement les méthodes telles que les getters, les setters, les constructeurs, et d'autres méthodes couramment utilisées.
+  L'utilisation de Lombok peut réduire la quantité de code boilerplate (code redondant) que les développeurs doivent écrire, améliorant ainsi la lisibilité du code et accélérant le processus de développement.
+
+- **H2 Database** :
+  H2 est une base de données relationnelle légère écrite en Java.
+  Elle est souvent utilisée comme base de données embarquée dans des applications Java, ce qui signifie qu'elle peut être intégrée directement dans une application et fonctionner en mémoire ou être stockée sur le disque sans nécessiter un serveur de base de données distinct.
+  H2 prend en charge le mode embarqué, le mode serveur, et peut également fonctionner en mode mémoire pour les tests.
+- **MySQL** :
+  MySQL est un système de gestion de base de données relationnelle (SGBDR) open-source.
+  Il est largement utilisé dans le développement web pour stocker et gérer les données.
+  MySQL prend en charge le langage SQL (Structured Query Language) pour interagir avec la base de données, et il offre une performance élevée, une fiabilité et une flexibilité qui en font l'un des systèmes de gestion de base de données les plus populaires au monde.
+
+    <p>En résumé, Spring Data est un framework d'accès aux données de haut niveau qui prend en charge divers types de stockage de données, tandis que JPA est une norme permettant aux développeurs Java d'interagir avec des bases de données relationnelles. Hibernate, une implémentation spécifique de JPA, agit comme un framework ORM puissant pour les applications Java. Ensemble, ils offrent une méthode robuste et normalisée pour gérer la persistance des données dans les applications d'entreprise Java. D'autre part, Lombok simplifie le développement en automatisant la génération de code, tandis que H2 Database est souvent utilisé comme une base de données relationnelle légère embarquée, offrant une alternative pratique pour le stockage des données. Enfin, MySQL, un système de gestion de base de données relationnelle open-source répandu, fournit des fonctionnalités essentielles pour le stockage et la gestion des données dans le développement d'applications Java. Chacun de ces outils joue un rôle spécifique dans le processus de développement d'applications Java, simplifiant certaines tâches et fournissant des fonctionnalités essentielles pour la gestion des données.</p>
 
 ## presentations
 
@@ -34,15 +48,6 @@ Ce projet Java Spring est une application de gestion des patients, développée 
 ## UML
 
 ![UML](./UML/UML.png)
-
-## Technologies Utilisées
-
-- **Java Spring Boot** : Framework Java pour le développement d'applications.
-- **JPA (Java Persistence API)** : Interface de programmation Java permettant de gérer les données relationnelles.
-- **Hibernate** : Framework de mapping objet-relationnel pour Java.
-- **Lombok** : Bibliothèque Java qui automatise la génération de code répétitif, comme les accesseurs et les mutateurs.
-- **MySQL** : Système de gestion de base de données relationnelle.
-- **H2** : Base de données en mémoire, alternative à MySQL pour les tests et le développement.
 
 ## Configuration
 
