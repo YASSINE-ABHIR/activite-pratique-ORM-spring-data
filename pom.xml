@@ -8,7 +8,7 @@
         <version>3.2.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ma.dev7hd</groupId>
+    <groupId>ma.yassineab</groupId>
     <artifactId>Activite_Pratique_N2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Activite_Pratique_N2</name>
